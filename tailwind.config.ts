@@ -5,5 +5,8 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  corePlugins: {
+    fontSize: false,
+  },
+  plugins: [require("tailwindcss-fluid-type")],
 } satisfies Config;

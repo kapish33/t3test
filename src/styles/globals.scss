@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "../../scss/buttons";
-@import "../../scss/fonts";
-@import "../../scss/typography";
+@import "@demo/../../../scss/buttons";
+@import "@demo/../../../scss/fonts";
+@import "@demo/../../../scss/form";
+@import "@demo/../../../scss/typography";
